@@ -1,0 +1,49 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*/
+*{
+ margin: 0;
+ padding: 0; 
+ box-sizing: border-box;  
+}
+body{
+    background-image: url("clock.jpg");
+}
+.container{
+    margin: 4px;
+    padding: 3px;
+}
+.main{
+    background: #ccc;
+    max-width: 400px;
+    height: 175px ;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    position: relative;
+
+}
+.bash{
+    width: 50px;
+    background: red;
+    color: white;
+    padding: 5px;font-family: sans-serif;
+    border-radius: 5px;
+    margin:0 auto;
+    position: absolute;
+    top:-15px;left: 40%;
+}
+.clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    border-radius: 5px;
+     
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+ 
+
